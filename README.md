@@ -1,19 +1,19 @@
 
 # 🗺️ Itinerary Comparer
 
-A web application that allows users to **upload or paste multiple travel itineraries**, compare them side-by-side, and choose the best travel plan based on **cost, duration, and included features**.  
+A web application that allows users to **upload or paste multiple travel itineraries**, compare them side-by-side, and choose the best travel plan based on **cost, duration, and number of included features**.  
 
-This is currently a **frontend prototype** built with React, designed to showcase the core comparison functionality. Future versions will include a backend and external integrations.
+This is currently a **frontend prototype** built with React, designed to showcase the core comparison functionality.
 
 ---
 
 ## 🚀 Features
 
-- **Upload Travel Itineraries (PDF or JSON)**
+- **Upload Travel Itineraries (JSON)**
 - **Parse and Display Itineraries** in a clean, user-friendly grid
 - **Side-by-Side Comparison** of 2 or more itineraries
 - **Highlight Key Differences** (pricing, accommodations, transportation)
-- Responsive UI built with **Tailwind CSS**
+- Responsive mobile friendly UI built with **Tailwind CSS**
 
 ---
 
@@ -24,8 +24,6 @@ This is currently a **frontend prototype** built with React, designed to showcas
 | **Frontend**      | React (Vite), React Router DOM |
 | **Styling**       | Tailwind CSS |
 | **State Management** | React Context API |
-| **Future Backend** | Node.js, Express |
-| **File Handling** | Planned support for PDF parsing |
 
 ---
 
@@ -88,13 +86,13 @@ Make sure you have the following installed:
 ## 🧑‍💻 Usage
 
 1. **Add a Plan:**  
-   - Use the "Add Plan" button to input travel plan details or upload a JSON/PDF file.
+   - Use the "Add Plan" button to input travel plan.
 
 2. **View Plans:**  
    - All added itineraries will be displayed in a grid layout.
 
 3. **Compare Plans:**  
-   - Select two or more itineraries to compare.
+   - Select two itineraries to compare.
    - View highlighted differences in price, duration, and included activities.
 
 ---
@@ -130,40 +128,12 @@ You can upload itineraries in the following JSON format:
 
 ## 🧱 Future Roadmap
 
-- [ ] **Backend API** for secure data storage and retrieval  
-- [ ] **PDF Parsing** for extracting itinerary details automatically  
+- [ ] **Backend API** for secure data storage and retrieval
 - [ ] **User Authentication** with role-based access (Owner vs Customer)  
-- [ ] **Advanced Comparison Logic** (hidden fees, exclusions, etc.)  
-- [ ] **Deployment to cloud services** (e.g., Vercel, AWS)
+- [ ] **Advanced Comparison Logic** (hidden fees, exclusions, etc.)
 
 ---
 
-## 🐞 Known Issues
-
-- PDF parsing is not fully implemented yet.
-- Comparison only works reliably for JSON files.
-- Limited mobile UI optimization.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-To contribute:
-1. Fork the repository
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes
-4. Open a Pull Request
-
----
-
-## 📝 License
-This project is licensed under the MIT License.
-
----
 
 ## 💡 Inspiration
 This project was built as part of a **React/MERN technical assessment** to demonstrate product thinking, scalability planning, and frontend development skills.
@@ -172,5 +142,4 @@ This project was built as part of a **React/MERN technical assessment** to demon
 
 ## 👨‍💻 Author
 **Kaustubh Mayekar**  
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
+- GitHub: [Kaustubh01](https://github.com/Kaustubh01)
