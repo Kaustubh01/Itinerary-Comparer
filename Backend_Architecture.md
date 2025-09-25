@@ -136,27 +136,7 @@ Handles JSON and PDF files:
 
 **Request Flow (High-Level)**
 
-```
-[Client / React Frontend]
-          |
-          v
-[Express API Server]
-   |          |
-   v          v
-[Auth Middleware]   [Validation Middleware]
-          |
-          v
-[Controllers / Services]
-   |        |
-   v        v
-[Itinerary Service]   [Comparison Engine]
-   |        |
-   v        v
-[MongoDB]     [Comparison Result]
-          |
-          v
-      [Response to Client]
-```
+![Example](https://github.com/Kaustubh01/Itinerary-Comparer/blob/main/Backend%20Flow.png?raw=true)
 
 ---
 
