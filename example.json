@@ -1,0 +1,21 @@
+{
+  "packageName": "Andaman Holiday Package",
+  "duration": {
+    "days": 5,
+    "nights": 4
+  },
+  "price": 25000,
+  "accommodations": [
+    {
+      "location": "Port Blair",
+      "name": "Seaside Hotel",
+      "duration": { "days": 2, "nights": 1 },
+      "roomType": ["Deluxe"],
+      "totalRooms": 2
+    }
+  ],
+  "transportation": {
+    "ferry": ["Port Blair -> Havelock"],
+    "air": ["Mumbai -> Port Blair"]
+  }
+}

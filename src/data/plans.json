@@ -1,0 +1,229 @@
+[
+  {
+    "packageName": "Andaman 7D 02 SR",
+    "duration": {
+      "nights": 6,
+      "days": 7
+    },
+    "costing": {
+      "adults": 2,
+      "children": 0,
+      "costPerAdult": 29500,
+      "costPerChild": 0,
+      "totalCost": 59000
+    },
+    "accomodation": [
+      {
+        "location": "Port Blair",
+        "name": "Standard Room",
+        "duration": { "days": 2, "nights": 2 },
+        "roomType": ["Standard"],
+        "totalRooms": 1
+      },
+      {
+        "location": "Havelock",
+        "name": "Standard Room",
+        "duration": { "days": 2, "nights": 2 },
+        "roomType": ["Standard"],
+        "totalRooms": 1
+      },
+      {
+        "location": "Neil Island",
+        "name": "Standard Room",
+        "duration": { "days": 2, "nights": 2 },
+        "roomType": ["Standard"],
+        "totalRooms": 1
+      }
+    ],
+    "transportation": {
+      "road": [
+        { "mode": "AC Vehicle", "from": "Port Blair", "to": "Sightseeing Locations" },
+        { "mode": "AC Vehicle", "from": "Havelock", "to": "Sightseeing Locations" },
+        { "mode": "AC Vehicle", "from": "Neil", "to": "Sightseeing Locations" }
+      ],
+      "ferry": [
+        { "mode": "Private Cruise (Makruzz/Nautika)", "from": "Port Blair", "to": "Havelock" },
+        { "mode": "Private Cruise (Makruzz/Nautika)", "from": "Havelock", "to": "Neil" },
+        { "mode": "Private Cruise (Makruzz/Nautika)", "from": "Neil", "to": "Port Blair" }
+      ],
+      "air": []
+    },
+    "itinerary": [
+      { "day": 1, "stayLocation": "Port Blair", "activities": "Arrival, Corbyn's Cove Beach, Flag Point, Light & Sound Show at Cellular Jail" },
+      { "day": 2, "stayLocation": "Havelock Island", "activities": "Cruise to Havelock, Radhanagar Beach, Kalapathar Beach" },
+      { "day": 3, "stayLocation": "Havelock Island", "activities": "Elephanta Beach water activities, local market" },
+      { "day": 4, "stayLocation": "Neil Island", "activities": "Cruise to Neil Island, Sunset Point at Natural Bridge" },
+      { "day": 5, "stayLocation": "Neil Island", "activities": "Bharatpur Beach, Laxmanpur Beach, Sitapur Beach exploration" },
+      { "day": 6, "stayLocation": "Port Blair", "activities": "Cruise to Port Blair, evening shopping, leisure dinner" },
+      { "day": 7, "stayLocation": "Port Blair", "activities": "Breakfast, check-out, Airport drop" }
+    ],
+    "inclusion": [
+      "Accommodation in Standard Room at Port Blair, Havelock & Neil",
+      "Exclusive AC vehicle at all locations",
+      "Private Cruise transfer between islands",
+      "Breakfast for 6 days",
+      "All entry permits, tickets, and boat rides"
+    ],
+    "exclusion": [
+      "Early check-in/Late check-out",
+      "Personal expenses like laundry, telephone, internet",
+      "Camera tickets",
+      "Expenses due to bad weather or ferry cancellation",
+      "Water sports activities direct payment",
+      "Gala dinner charges if applicable"
+    ],
+    "travelTips": [],
+    "notes": ["Package does not include flight cost"]
+  },
+  {
+    "packageName": "Prakash 6 Nights 7 Days Andaman",
+    "duration": {
+      "nights": 6,
+      "days": 7
+    },
+    "costing": {
+      "adults": 22,
+      "children": 0,
+      "costPerAdult": 20400,
+      "costPerChild": 0,
+      "totalCost": 448800
+    },
+    "accomodation": [
+      {
+        "location": "Port Blair",
+        "name": "Runway Inn / Mount View Pristine / Big Pocket",
+        "duration": { "days": 3, "nights": 3 },
+        "roomType": ["Deluxe"],
+        "totalRooms": 11
+      },
+      {
+        "location": "Havelock",
+        "name": "Havelock Gateway / Heaven Garden",
+        "duration": { "days": 2, "nights": 2 },
+        "roomType": ["Deluxe", "Standard"],
+        "totalRooms": 11
+      },
+      {
+        "location": "Neil Island",
+        "name": "Laxmi Continental / CS Empire / Save Green Resort",
+        "duration": { "days": 1, "nights": 1 },
+        "roomType": ["Deluxe", "Premium", "Cottage"],
+        "totalRooms": 11
+      }
+    ],
+    "transportation": {
+      "road": [
+        { "mode": "AC Traveller", "from": "Airport", "to": "Hotels and sightseeing spots" }
+      ],
+      "ferry": [
+        { "mode": "Makruzz / Nautika / Green Ocean", "from": "Port Blair", "to": "Havelock" },
+        { "mode": "Makruzz / Nautika / Green Ocean", "from": "Havelock", "to": "Neil" },
+        { "mode": "Makruzz / Nautika / Green Ocean", "from": "Neil", "to": "Port Blair" }
+      ],
+      "air": []
+    },
+    "itinerary": [
+      { "day": 1, "stayLocation": "Port Blair", "activities": "Arrival, Carbyn's Cove Beach, Cellular Jail, Light & Sound Show" },
+      { "day": 2, "stayLocation": "Port Blair", "activities": "Excursion to Ross Island and North Bay" },
+      { "day": 3, "stayLocation": "Havelock Island", "activities": "Transfer to Havelock, Radhanagar Beach" },
+      { "day": 4, "stayLocation": "Havelock Island", "activities": "Kalapathar Beach and Elephanta Beach" },
+      { "day": 5, "stayLocation": "Neil Island", "activities": "Transfer to Neil, Bharatpur Beach, Laxmanpur Beach, Natural Bridge" },
+      { "day": 6, "stayLocation": "Port Blair", "activities": "Return to Port Blair, local shopping" },
+      { "day": 7, "stayLocation": "Port Blair", "activities": "Airport drop-off" }
+    ],
+    "inclusion": [
+      "Accommodation on double/triple sharing",
+      "Exclusive AC vehicle for transfers and sightseeing",
+      "Daily breakfast",
+      "Cruise transfers for Havelock and Neil",
+      "Airport pick up and drop",
+      "Entry permits, tickets, parking charges included"
+    ],
+    "exclusion": [
+      "Airfare",
+      "Personal expenses like tips, laundry, and beverages",
+      "Meals other than breakfast",
+      "Guide and optional activities like snorkeling",
+      "Camera fee",
+      "Additional vehicle usage",
+      "GST 5% if bill required"
+    ],
+    "travelTips": [
+      "Use facemask",
+      "Maintain 6 feet distance",
+      "Use sanitizer regularly",
+      "Install Aarogya Setu app",
+      "Use hand gloves in crowded areas"
+    ],
+    "notes": ["Above is a quote, no rooms are blocked yet"]
+  },
+  {
+    "packageName": "Andaman Holiday Package",
+    "duration": {
+      "nights": 6,
+      "days": 7
+    },
+    "costing": {
+      "adults": 22,
+      "children": 0,
+      "costPerAdult": 17000,
+      "costPerChild": 0,
+      "totalCost": 374000
+    },
+    "accomodation": [
+      {
+        "location": "Port Blair",
+        "name": "Hotel Tamarind Tree",
+        "duration": { "days": 4, "nights": 4 },
+        "roomType": ["Deluxe"],
+        "totalRooms": 11
+      },
+      {
+        "location": "Havelock",
+        "name": "Radhakrishna Hotel",
+        "duration": { "days": 1, "nights": 1 },
+        "roomType": ["Deluxe"],
+        "totalRooms": 11
+      },
+      {
+        "location": "Neil",
+        "name": "Amulya Residency",
+        "duration": { "days": 1, "nights": 1 },
+        "roomType": ["Deluxe"],
+        "totalRooms": 11
+      }
+    ],
+    "transportation": {
+      "road": [
+        { "mode": "Private AC Vehicle", "from": "Airport", "to": "Hotels and sightseeing locations" }
+      ],
+      "ferry": [
+        { "mode": "Green Ocean / Nautika / Makruzz", "from": "Port Blair", "to": "Havelock" },
+        { "mode": "Green Ocean / Nautika / Makruzz", "from": "Havelock", "to": "Neil" },
+        { "mode": "Green Ocean / Nautika / Makruzz", "from": "Neil", "to": "Port Blair" }
+      ],
+      "air": []
+    },
+    "itinerary": [
+      { "day": 1, "stayLocation": "Port Blair", "activities": "Arrival, Corbyn Cove Beach, Cellular Jail, Light & Sound Show" },
+      { "day": 2, "stayLocation": "Havelock", "activities": "Trip to Havelock, Radhanagar Beach, Kalapathar Beach" },
+      { "day": 3, "stayLocation": "Neil Island", "activities": "Havelock to Neil, Bharatpur Beach, Laxmanpur Beach" },
+      { "day": 4, "stayLocation": "Port Blair", "activities": "Natural Rock Formation, Shopping Tour" },
+      { "day": 5, "stayLocation": "Port Blair", "activities": "Boat Ride to Ross Island and North Bay" },
+      { "day": 6, "stayLocation": "Port Blair", "activities": "Baratang Island, Jarwa Visit, Limestone Caves" },
+      { "day": 7, "stayLocation": "Port Blair", "activities": "Departure from Port Blair" }
+    ],
+    "inclusion": [
+      "Accommodation in AC Hotels/Resorts",
+      "Daily breakfast",
+      "Private AC vehicle for all sightseeing",
+      "Cruise/Ferry transfers between islands",
+      "Entry tickets for Ross Island, North Bay, and Baratang caves",
+      "Light & Sound Show tickets",
+      "Dedicated Personal Tour Coordinator"
+    ],
+    "exclusion": [],
+    "travelTips": [],
+    "notes": ["Quotation date: 17th August 2025"]
+  }
+]
