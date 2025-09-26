@@ -2,6 +2,7 @@
 import React, { useContext } from "react";
 import { useParams, Link } from "react-router-dom";
 import { PlansContext } from "../context/PlansContext";
+import heroImage from "../assets/images/2.jpg";
 
 const ViewPlanDetails = () => {
   const { packageName } = useParams();
@@ -36,19 +37,48 @@ const ViewPlanDetails = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-6 py-6">
-          <Link 
-            to="/" 
-            className="inline-flex items-center text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200 mb-4"
-          >
-            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            Back to Plans
-          </Link>
-          <h1 className="text-3xl font-light text-gray-900">{plan.packageName}</h1>
+      {/* Hero Banner Section */}
+      <div 
+        className="relative bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage})`,
+          minHeight: "400px"
+        }}
+      >
+        <div className="absolute inset-0">
+          <div className="max-w-6xl mx-auto px-6 h-full flex flex-col justify-between">
+            {/* Back Button */}
+            <div className="pt-6">
+              <Link 
+                to="/" 
+                className="inline-flex items-center text-white hover:text-gray-200 font-medium transition-colors duration-200 bg-black/20 backdrop-blur-sm px-4 py-2 rounded-full"
+              >
+                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                Back to Plans
+              </Link>
+            </div>
+            
+            {/* Title and Cost Info */}
+            <div className="pb-8">
+              <div className="text-center text-white mb-8">
+                <h1 className="text-4xl md:text-5xl font-light mb-4 drop-shadow-lg">
+                  {plan.packageName}
+                </h1>
+                <div className="flex flex-wrap justify-center gap-6 text-lg">
+                  <div className="bg-black/30 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <span className="text-gray-200">Duration: </span>
+                    <span className="font-medium">{plan.duration.days} Days / {plan.duration.nights} Nights</span>
+                  </div>
+                  <div className="bg-black/30 backdrop-blur-sm px-4 py-2 rounded-full">
+                    <span className="text-gray-200">Cost: </span>
+                    <span className="font-medium text-green-300">₹{plan.costing.totalCost.toLocaleString()}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
