@@ -136,7 +136,7 @@ Handles JSON and PDF files:
 
 **Request Flow (High-Level)**
 
-![Example]([https://github.com/Kaustubh01/Itinerary-Comparer/blob/main/Backend%20Flow.png?raw=true](https://github.com/Kaustubh01/Itinerary-Comparer/blob/main/src/assets/documentation/Backend%20Flow.png?raw=true))
+![Backend architecture flow](https://github.com/Kaustubh01/Itinerary-Comparer/blob/main/src/assets/documentation/Backend%20Flow.png?raw=true)
 
 ---
 
