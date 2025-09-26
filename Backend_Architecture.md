@@ -67,7 +67,32 @@ Handles JSON and PDF files:
 - PDF files: Extract structured data using libraries like **pdf-parse** or **pdf.js**
 - Multer middleware for handling multipart/form-data uploads
 
-### E. API Layer (Express Routes)
+### E. Controllers Layer
+The **controllers** act as intermediaries between the routes and services.  
+They handle HTTP requests, trigger appropriate service calls, and return responses.
+
+#### **User Controller**
+- `registerUser` – Handles user registration
+- `loginUser` – Authenticates and issues JWT token
+- `getUserProfile` – Retrieves current logged-in user details
+
+#### **Itinerary Controller**
+- `createItinerary` – Add new itinerary
+- `getAllItineraries` – Fetch all itineraries
+- `getItineraryById` – Fetch a single itinerary by its ID
+- `updateItinerary` – Edit an existing itinerary
+- `deleteItinerary` – Delete itinerary by ID
+
+#### **Comparison Controller**
+- `compareItineraries` – Accepts 2–3 itinerary IDs and returns comparison results
+
+#### **File Controller**
+- `uploadFile` – Handle uploaded JSON/PDF files
+- `parseFile` – Extract and validate data before saving
+
+---
+
+## 3. API Layer (Express Routes)
 
 | Endpoint                     | Method | Description |
 |-------------------------------|--------|-------------|
@@ -79,10 +104,11 @@ Handles JSON and PDF files:
 | `/api/itineraries/:id`         | PUT    | Update itinerary |
 | `/api/itineraries/:id`         | DELETE | Delete itinerary |
 | `/api/compare`                 | POST   | Compare multiple itineraries |
+| `/api/files/upload`            | POST   | Upload JSON/PDF file |
 
 ---
 
-## 3. Database Schema (MongoDB)
+## 4. Database Schema (MongoDB)
 
 ### User Collection
 ```json
@@ -124,7 +150,7 @@ Handles JSON and PDF files:
 
 ---
 
-## 4. Middleware / Utilities
+## 5. Middleware / Utilities
 - **Auth Middleware** – Verify JWT token for protected routes
 - **Validation Middleware** – Validate request body with **Joi** or **express-validator**
 - **Error Handling Middleware** – Centralized error responses
@@ -132,7 +158,7 @@ Handles JSON and PDF files:
 
 ---
 
-## 5. Flow Diagram
+## 6. Flow Diagram
 
 **Request Flow (High-Level)**
 
@@ -140,7 +166,7 @@ Handles JSON and PDF files:
 
 ---
 
-## 6. Deployment & Scaling
+## 7. Deployment & Scaling
 - **Hosting:** Node.js server on **Heroku / AWS / Vercel**
 - **Database:** MongoDB Atlas (cloud) or self-hosted
 - **File Storage:** AWS S3 for PDFs/images
@@ -151,13 +177,5 @@ Handles JSON and PDF files:
 
 ---
 
-## 7. Future Enhancements
-- Real-time collaboration using **WebSockets**
-- Analytics dashboard for owners
-- Multi-format support: CSV, Excel
-- AI-assisted itinerary recommendations
-
----
-
 ## Author
-**Kaustubh Mayekar**  
+**Kaustubh Mayekar**
